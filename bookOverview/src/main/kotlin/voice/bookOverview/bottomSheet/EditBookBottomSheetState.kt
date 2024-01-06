@@ -21,7 +21,7 @@ enum class BottomSheetItem(
   val icon: ImageVector,
 ) {
   Title(StringsR.string.change_book_name, Icons.Outlined.Title),
-  InternetCover(StringsR.string.download_book_cover, Icons.Outlined.Download),
+//  InternetCover(StringsR.string.download_book_cover, Icons.Outlined.Download),
   FileCover(StringsR.string.pick_book_cover, Icons.Outlined.Image),
   DeleteBook(StringsR.string.delete_book_bottom_sheet_title, Icons.Outlined.Delete),
   BookCategoryMarkAsNotStarted(StringsR.string.mark_as_not_started, Icons.Outlined.HourglassEmpty),

@@ -30,7 +30,7 @@ object CoverModule {
     return Retrofit.Builder()
       .addConverterFactory(ScalarsConverterFactory.create())
       .addConverterFactory(json.asConverterFactory("application/json".toMediaType()))
-      .baseUrl("https://duckduckgo.com/")
+      .baseUrl("")
       .client(client)
       .build()
       .create()
